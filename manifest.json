@@ -1,0 +1,15 @@
+{
+    "name": "translinkni.waynelloyd",
+    "description": "Unofficial Webapp for translink.co.uk",
+    "architecture": "all",
+    "title": "Translink NI",
+    "hooks": {
+        "TranslinkNI": {
+            "apparmor": "TranslinkNI.apparmor",
+            "desktop": "TranslinkNI.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "waynelloyd <wayne.lloyd@outlook.com>",
+    "framework": "ubuntu-sdk-15.04"
+}

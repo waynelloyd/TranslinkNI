@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Translink NI
+Comment=Unofficial Webapp for translink.co.uk
+Type=Application
+Icon=TranslinkNI.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*.translink.co.uk/* http://journeyplanner.translink.co.uk/mobile/XSLT_TRIP_REQUEST2? %u
+Terminal=false
+X-Ubuntu-Touch=true
+
